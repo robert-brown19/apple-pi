@@ -44,10 +44,6 @@ architecture-beta TD
 ```
 ```mermaid
 architecture-beta TD
-A[<font-awesome:fa-server>]
-B[<aws:ec2>]
-C[<azure:vm>]
-
     group api(cloud)[API]
 
     service db(database)[Database] in api

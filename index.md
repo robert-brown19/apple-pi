@@ -34,7 +34,7 @@ Motion v5
 : Motion is a program that monitors the signal from video cameras and detects changes in the images.
 
 NGINX 
-: Webserver configuration option which after Apache Tomcat is very common
+: Motion supported Webserver configuration option which after Apache Tomcat is very common
 
 MariaDB 
-: Selected to provide additional application with a Published STIG
+: A database supported by Motion selected because it is covered by a published Security Technical Implementation Guide (STIG)

@@ -1,9 +1,8 @@
 ---
 title: Customization
-nav_order: 1
+nav_order: Home
 ---
 
-Cleared File Content
 ## Title of Document ##
 
 More information to add

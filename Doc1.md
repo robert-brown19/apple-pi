@@ -26,5 +26,6 @@ architecture-beta
 
     db:L -- R:app_server
     server1:T -- B:app_server
-    server2:T -- B:db
+    server2:T -- B:app_server
+    server3:T -- B:app_server
 ```

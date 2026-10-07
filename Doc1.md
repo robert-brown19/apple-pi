@@ -6,12 +6,7 @@ nav_enabled: true
 ---
 
 ```mermaid
-architecture-beta
-graph TD
-A[<font-awesome:fa-server>]
-B[<aws:ec2>]
-C[<azure:vm>]
-
+architecture-beta TD
     group api(cloud)[API]
 
     service db(database)[Database] in api
@@ -25,7 +20,6 @@ C[<azure:vm>]
     disk2:T -- B:db
 ```
 ```mermaid
-architecture-beta
 graph TD;
     accTitle: the diamond pattern
     accDescr: a graph with four nodes: A points to B and C, while B and C both point to D
@@ -35,11 +29,7 @@ graph TD;
     C-->D;
 ```
 ```mermaid
-graph TD
-architecture-beta
-A[<font-awesome:fa-server>]
-B[<aws:ec2>]
-C[<azure:vm>]
+architecture-beta TD
 
     group api(logos:aws-lambda)[API]
 
@@ -53,7 +43,7 @@ C[<azure:vm>]
     disk2:T -- B:db
 ```
 ```mermaid
-graph TD
+architecture-beta TD
 A[<font-awesome:fa-server>]
 B[<aws:ec2>]
 C[<azure:vm>]
@@ -64,7 +54,6 @@ C[<azure:vm>]
     service disk1(disk)[Storage] in api
     service disk2(disk)[Storage] in api
     service server(server)[Server] in api
-    service wifi(wifi)[wifi] in api
 
     db:L -- R:server
     disk1:T -- B:server
@@ -80,7 +69,7 @@ graph TD;
     C-->D;
 ```
 ```mermaid
-graph TD
+architecture-beta TD
 A[<font-awesome:fa-server>]
 B[<aws:ec2>]
 C[<azure:vm>]

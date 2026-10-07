@@ -18,3 +18,13 @@ architecture-beta
     db:L -- R:server
     disk1:T -- B:server
     disk2:T -- B:db
+
+```mermaid
+graph TD;
+    accTitle: the diamond pattern
+    accDescr: a graph with four nodes: A points to B and C, while B and C both point to D
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```

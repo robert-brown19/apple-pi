@@ -27,6 +27,7 @@ Sensors (3)
 
     Software:
 
-    Motion v5 : Motion is a program that monitors the signal from video cameras and detects changes in the images.  
+This line starts with four spaces worth of indentation
+Motion v5 : Motion is a program that monitors the signal from video cameras and detects changes in the images.  
     NGINX :  Webserver configuration option which after Apache Tomcat is very common  
     MariaDB: Selected to provide additional application with a Published STIG  

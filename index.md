@@ -15,7 +15,7 @@ Project Requirements:
     
 ### Instantiated requirements ###
 
-Hardware:
+#### Hardware: ####
 
 Video  Camera
 :  Video is easily implemented on the entire suite of Raspberry Pi products.  It is in effect a sensor.  It could be substituted with a microphone, a temperature sensor, etc.  
@@ -28,13 +28,13 @@ WIFI Router (1)
 Edge Server (1)  
 Sensors (3)  
 
-Software:
+#### Software: ####
 
 Motion v5 
-: Motion is a program that monitors the signal from video cameras and detects changes in the images.  
+: Motion is a program that monitors the signal from video cameras and detects changes in the images.
 
 NGINX 
 : Webserver configuration option which after Apache Tomcat is very common
 
 MariaDB 
-: Selected to provide additional application with a Published STIG  
+: Selected to provide additional application with a Published STIG

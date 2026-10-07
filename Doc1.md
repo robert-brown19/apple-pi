@@ -14,7 +14,6 @@ A[<font-awesome:fa-server>]
 B[<aws:ec2>]
 C[<azure:vm>]
 
-architecture-beta
     group api(cloud)[API]
 
     service db(database)[Database] in api
@@ -42,7 +41,6 @@ A[<font-awesome:fa-server>]
 B[<aws:ec2>]
 C[<azure:vm>]
 
-architecture-beta
     group api(logos:aws-lambda)[API]
 
     service db(logos:aws-aurora)[Database] in api

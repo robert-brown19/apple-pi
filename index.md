@@ -1,6 +1,8 @@
 ---
-title: Customization
 nav_order: Home
+layout: default
+title: Home1
+nav_enabled: true
 ---
 
 ## Title of Document ##

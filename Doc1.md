@@ -15,17 +15,41 @@ graph TD;
     C-->D;
 ```
 ```mermaid
-architecture-beta
-    group api(cloud)[Communication Gateway]
+flowchart BT
+ subgraph mediaServers["Media Content Servers"]
+        media1["📹 Media Server 1"]
+        media2["📹 Media Server 2"]
+        media3["📹 Media Server 3"]
+  end
+ subgraph appServer["⚙️ Application Server"]
+        server1["Motion"]
+        database["MariaDB"]
+        server2["NGNIX"]
+  end
+ subgraph vpc["AWS VPC"]
+    direction BT
+        igw["🌐 Gateway"]
+        appServer
+        mediaServers
+  end
+    igw -- Traffic <--> internet["External Communicatoins"]
+    appServer -- Route --> igw
+    media1 -- Distribute --> appServer
+    media2 -- Distribute --> appServer
+    media3 -- Distribute --> appServer
 
-    service app_server(server)[Edge Server] in api
-    service db(database)[MariaDB] in api
-    service server1(server)[Video Cam1] in api
-    service server2(server)[Video Cam2] in api
-    service server3(server)[Video Cam3] in api
-
-    db:L -- R:app_server
-    server1:T -- B:app_server
-    server2:T -- B:app_server
-    server3:T -- B:app_server
+     media1:::mediaStyle
+     media1:::mediaStyle
+     media2:::mediaStyle
+     media2:::mediaStyle
+     media3:::mediaStyle
+     media3:::mediaStyle
+     igw:::gatewayStyle
+     appServer:::appStyle
+     internet:::internetStyle
+    classDef vpcStyle stroke:#2dd4bf,fill:#f0fdfa
+    classDef gatewayStyle stroke:#38bdf8,fill:#f0f9ff
+    classDef appStyle stroke:#818cf8,fill:#eef2ff
+    classDef mediaStyle stroke:#fb923c,fill:#fff7ed
+    classDef internetStyle stroke:#f87171,fill:#fef2f2
 ```

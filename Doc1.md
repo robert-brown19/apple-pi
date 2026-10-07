@@ -16,7 +16,9 @@ graph TD;
 ```
 ```mermaid
 architecture-beta
-    group api(cloud)[API]
+    accTitle: the architecture
+    accDescr: a architecture graph with four nodes
+    group api(logos:aws-lambda)[API]
 
     service db(database)[Database] in api
     service disk1(disk)[Storage] in api

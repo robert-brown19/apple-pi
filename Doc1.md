@@ -6,7 +6,14 @@ nav_enabled: true
 ---
 
 Additional Documentation  
+
+
 ```mermaid
+graph TD
+A[<font-awesome:fa-server>]
+B[<aws:ec2>]
+C[<azure:vm>]
+
 architecture-beta
     group api(cloud)[API]
 
@@ -30,6 +37,11 @@ graph TD;
     C-->D;
 ```
 ```mermaid
+graph TD
+A[<font-awesome:fa-server>]
+B[<aws:ec2>]
+C[<azure:vm>]
+
 architecture-beta
     group api(logos:aws-lambda)[API]
 

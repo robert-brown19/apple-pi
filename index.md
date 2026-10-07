@@ -7,8 +7,7 @@ nav_enabled: true
 
 ## Heading of Document ##  
 
-
-Securing a Raspberry Pi to Military Standards  
+Securing a Raspberry Pi to Military Standards
 
 Project Requirements:  
     1. Follow a simplified Acquisition and Systems Engineering Process  
@@ -16,7 +15,7 @@ Project Requirements:
     3. Focus on Cybersecurity and not the Platform.  The platform is tailored for specific Cybersecurity use cases.  
     4. The platform is to be a real-world platform not a rock sitting in a safe.  
     
-    ### Instantiated requirements ###  
+    ### Instantiated requirements ###
     
     Video:  Video is easily implemented on the entire suite of Raspberry Pi products.  It is in effect a sensor.  It could be substituted with a microphone, a temperature sensor, etc.  
     Edge architecture: Communications are always a key requirement for Military, whether mobility, encryption requirements.  

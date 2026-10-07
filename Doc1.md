@@ -6,7 +6,7 @@ nav_enabled: true
 ---
 
 Additional Documentation  
-
+```mermaid
 architecture-beta
     group api(cloud)[API]
 
@@ -18,7 +18,7 @@ architecture-beta
     db:L -- R:server
     disk1:T -- B:server
     disk2:T -- B:db
-
+```
 ```mermaid
 graph TD;
     accTitle: the diamond pattern

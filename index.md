@@ -25,7 +25,7 @@ WIFI Router (1)
 Edge Server (1)  
 Sensors (3)  
 
-: Software:
+Software:
 
 This line starts with four spaces worth of indentation
 Motion v5 : Motion is a program that monitors the signal from video cameras and detects changes in the images.  

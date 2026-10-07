@@ -1,12 +1,11 @@
 ---
 nav_order: Home
 layout: default
-title: Home1
+title: Graphic
 nav_enabled: true
 ---
 
-Additional Documentation
-
+Additional Documentation  
 
 architecture-beta
     group api(cloud)[API]

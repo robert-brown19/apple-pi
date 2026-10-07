@@ -18,13 +18,13 @@ graph TD;
 architecture-beta
     group api(cloud)[Comm GW]
 
-    service server(server)[App Server] in api
+    service app_server(server)[App Server] in api
     service db(database)[MariaDB] in api
-    service server(server)[Video Cam] in api
-    service server(server)[Video Cam] in api
-    service server(server)[Video Cam] in api
+    service server1(server)[Video Cam] in api
+    service server2(server)[Video Cam] in api
+    service server3(server)[Video Cam] in api
 
-    db:L -- R:server
-    disk1:T -- B:server
-    disk2:T -- B:db
+    db:L -- R:app_server
+    server1:T -- B:app_server
+    server2:T -- B:db
 ```

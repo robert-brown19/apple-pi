@@ -35,15 +35,24 @@ architecture-beta
     disk2:T -- B:db
 ```
 ```mermaid
-architecture-beta
-    group api(logos:aws-lambda)[API]
+flowchart TB
 
-    service db(logos:aws-aurora)[Database] in api
-    service disk1(logos:aws-glacier)[Storage] in api
-    service disk2(logos:aws-s3)[Storage] in api
-    service server(logos:aws-ec2)[Server] in api
+subgraph ACCOUNT[AWS Account]
+  subgraph GRP1[" "]
+    ELB@{ img: "https://api.iconify.design/logos/aws-elb.svg", label: "ELB", pos: "b", w: 60, h: 60, constraint: "on" }
+  end
+  subgraph GRP2[" "]
+    EC2@{ img: "https://api.iconify.design/logos/aws-ec2.svg", label: "EC2", pos: "b", w: 60, h: 60, constraint: "on" }
+  end
+  subgraph GRP3[" "]
+    RDS@{ img: "https://api.iconify.design/logos/aws-rds.svg", label: "RDS", pos: "b", w: 60, h: 60, constraint: "on" }
+  end
+  ELB --- EC2 --- RDS
+end
 
-    db:L -- R:server
-    disk1:T -- B:server
-    disk2:T -- B:db
+classDef vpc fill:none,color:#0a0,stroke:#0a0
+class ACCOUNT vpc
+
+classDef group fill:none,stroke:none
+class GRP1,GRP2,GRP3 group
 ```

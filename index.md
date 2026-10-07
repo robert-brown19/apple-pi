@@ -19,7 +19,7 @@ Project Requirements:
     
 Video:  Video is easily implemented on the entire suite of Raspberry Pi products.  It is in effect a sensor.  It could be substituted with a microphone, a temperature sensor, etc.  
 Edge architecture: Communications are always a key requirement for Military, whether mobility, encryption requirements.  
-: It should be assumed for this exercise only publicly available communications & encryption will be used. However, there are plenty of examples that can be utilized without the acquisition of a TAClane or LinkX communications.  
+It should be assumed for this exercise only publicly available communications & encryption will be used. However, there are plenty of examples that can be utilized without the acquisition of a TAClane or LinkX communications.  
 
 WIFI Router (1)  
 Edge Server (1)  

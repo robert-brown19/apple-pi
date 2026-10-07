@@ -16,13 +16,13 @@ graph TD;
 ```
 ```mermaid
 architecture-beta
-    group api(cloud)[Comm GW]
+    group api(cloud)[Communication Gateway]
 
-    service app_server(server)[App Server] in api
+    service app_server(server)[Edge Server] in api
     service db(database)[MariaDB] in api
-    service server1(server)[Video Cam] in api
-    service server2(server)[Video Cam] in api
-    service server3(server)[Video Cam] in api
+    service server1(server)[Video Cam1] in api
+    service server2(server)[Video Cam2] in api
+    service server3(server)[Video Cam3] in api
 
     db:L -- R:app_server
     server1:T -- B:app_server

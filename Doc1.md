@@ -14,7 +14,7 @@ architecture-beta
     service disk1(disk)[Storage] in api
     service disk2(disk)[Storage] in api
     service server(server)[Server] in api
-    service streamline-color:wifi-router(wifi)[wifi] in api
+    service wifi-router(wifi)[wifi] in api
 
     db:L -- R:server
     disk1:T -- B:server

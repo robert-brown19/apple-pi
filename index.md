@@ -29,6 +29,7 @@ Edge Server (1)
 Sensors (3)  
 
 ```mermaid
+
 flowchart BT
  subgraph mediaServers["Media Content Servers"]
         media1["📹 Media Server 1"]

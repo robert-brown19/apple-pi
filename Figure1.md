@@ -1,7 +1,7 @@
 ---
-nav_order: Home
+nav_order: 2
 layout: default
-title: Graphic
+title: Figure 1
 nav_enabled: true
 ---
 

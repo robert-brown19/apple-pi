@@ -28,8 +28,6 @@ WIFI Router (1)
 Edge Server (1)  
 Sensors (3)  
 [Figure 1](https://robert-brown19.github.io/apple-pi/Figure1.html)  
- 
-[Figure 2](https://www.google.com)
 
 ### Software: ###
 

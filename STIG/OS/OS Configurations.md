@@ -5,10 +5,10 @@ title: OS Cfg
 nav_enabled: true
 ---
 ```markdown
-`sudo auditd -s enable`  
+sudo auditd -s enable
 ```
 ```markdown
-`sudo systemctl enable auditd.service`  
+`sudo systemctl enable auditd.service`
 ```
 `sudo nano /etc/audit/rules.d/stig.rules`  
 create/copy/paste audit rules.txt  

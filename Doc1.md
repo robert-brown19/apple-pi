@@ -6,33 +6,25 @@ nav_enabled: true
 ---
 
 ```mermaid
-graph TD;
-    accTitle: the diamond pattern
-    accDescr: a graph with four nodes: A points to B and C, while B and C both point to D
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-```mermaid
 flowchart BT
  subgraph mediaServers["Media Content Servers"]
-        media1["📹 Media Server 1"]
-        media2["📹 Media Server 2"]
-        media3["📹 Media Server 3"]
+        media1["📹 Camera/Sensor 1"]
+        media2["📹 Camera/Sensor 2"]
+        media3["📹 Camera/Sensor 3"]
   end
  subgraph appServer["⚙️ Application Server"]
         server1["Motion"]
         database["MariaDB"]
         server2["NGNIX"]
+        server3["File Storage"]
   end
- subgraph vpc["AWS VPC"]
+ subgraph vpc["Edge Cloud"]
     direction BT
         igw["🌐 Gateway"]
         appServer
         mediaServers
   end
-    igw -- Traffic <--> internet["External Communicatoins"]
+    igw <-- Traffic --> internet["External Communicatoins"]
     appServer -- Route --> igw
     media1 -- Distribute --> appServer
     media2 -- Distribute --> appServer
@@ -52,8 +44,5 @@ flowchart BT
     classDef appStyle stroke:#818cf8,fill:#eef2ff
     classDef mediaStyle stroke:#fb923c,fill:#fff7ed
     classDef internetStyle stroke:#f87171,fill:#fef2f2
+
 ```
-
-## Header Text ##
-
-More content

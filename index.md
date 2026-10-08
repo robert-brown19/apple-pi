@@ -1,7 +1,7 @@
 ---
 nav_order: Home
 layout: default
-title: Home1
+title: Home
 nav_enabled: true
 ---
 

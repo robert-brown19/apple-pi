@@ -27,7 +27,9 @@ It should be assumed for this exercise only publicly available communications & 
 WIFI Router (1)  
 Edge Server (1)  
 Sensors (3)  
-[Figure 1] (https://robert-brown19.github.io/apple-pi/Figure1.html)
+[Figure 1] (https://robert-brown19.github.io/apple-pi/Figure1.html)  
+ 
+[title](https://www.google.com)
 
 ### Software: ###
 

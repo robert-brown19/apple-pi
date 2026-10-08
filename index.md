@@ -1,5 +1,5 @@
 ---
-nav_order: Home
+nav_order: 1
 layout: default
 title: Home
 nav_enabled: true

@@ -24,21 +24,21 @@ sudo chmod -R 0640 /etc/audit/rules.d
 `sudo cp /usr/share/doc/libpam-pkcs11/examples/pam_pkcs11.conf.example /etc/pam_pkcs11/pam_pkcs11.conf`  
 ```
 ```markdown
-`sudo useradd -D -f 35`
+sudo useradd -D -f 35
 ```
 ```markdown
-`sudo nano /etc/sysctl.conf`
+sudo nano /etc/sysctl.conf
 ```
 uncomment net.ipv4.tcp_syncookies = 1 then save file  
 ```markdown
-`sudo nano /etc/login.defs`  
+sudo nano /etc/login.defs  
 ```
 Make the following edits  
 UMASK 077  
 PASS_MIN_DAYS 1  
 PASS_MAX_DAYS 60  
 ```markdown
-`sudo nano /etc/pam.d/login`
+sudo nano /etc/pam.d/login
 ```
 Make the following edits  
 session required pam_lastlog.so showfailed  
@@ -59,15 +59,17 @@ X11Forwarding no
 PubkeyAuthentication yes  
 AuthorizedKeysFile      .ssh/authorized_keys .ssh/authorized_keys2   
 ```markdown
-`mkdir ~/.ssh`
+mkdir ~/.ssh
 ```
 ```markdown
-`sudo nano ~/.ssh/authorized_keys`  
+sudo nano ~/.ssh/authorized_keys
+```
 copy key into file  
-`sudo systemctl restart sshd.service`
+```markdown
+sudo systemctl restart sshd.service
 ```
 ```markdown
-`sudo aideinit`  
+sudo aideinit  
 ```
 ```markdown
 ##sudo nano /etc/pam.d/login

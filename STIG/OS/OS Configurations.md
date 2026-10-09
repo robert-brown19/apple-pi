@@ -21,7 +21,7 @@ sudo augenrules --load
 sudo chmod -R 0640 /etc/audit/rules.d
 ```
 ```markdown
-`sudo cp /usr/share/doc/libpam-pkcs11/examples/pam_pkcs11.conf.example /etc/pam_pkcs11/pam_pkcs11.conf`  
+sudo cp /usr/share/doc/libpam-pkcs11/examples/pam_pkcs11.conf.example /etc/pam_pkcs11/pam_pkcs11.conf  
 ```
 ```markdown
 sudo useradd -D -f 35
@@ -83,7 +83,7 @@ Unattended-Upgrade::Remove-Unused-Kernel-Packages "true";
 ```markdown
 ##sudo nano /etc/security/limits.conf
 ```
-* hard maxlogins 10  
+hard maxlogins 10  
 ```markdown 
 ++##sudo nano /etc/chrony/chrony.conf
 ```

@@ -2,11 +2,11 @@ cat /proc/cpuinfo | grep Model
 sudo apt update && sudo apt full-upgrade -y
 - sudo apt install opensc libpam-pkcs11 auditd ufw libpam-pwquality apparmor vlock aide chrony -y
 
-- sudo apt install **libopencv-dev** **libcamera-dev** **libcamera-v4l2** **libcamera-tools** libavdevice-dev libmicrohttpd-dev libfftw3-dev libfftw3-double3 **libmariadb-dev** libmariadb3 mariadb-client mariadb-client-core mariadb-common mariadb-server -y
+- sudo apt install **libopencv-dev** **libcamera-dev** **libcamera-v4l2** **libcamera-tools** **libavdevice-dev** libmicrohttpd-dev libfftw3-dev libfftw3-double3 **libmariadb-dev** libmariadb3 mariadb-client mariadb-client-core mariadb-common mariadb-server -y
 
-- sudo apt install autoconf automake autopoint build-essential pkgconf libtool libzip-dev libjpeg-dev git libavformat-dev libavcodec-dev libavutil-dev libswscale-dev libavdevice-dev **libopencv-dev** libwebp-dev gettext libmicrohttpd-dev **libmariadb-dev** **libcamera-dev** **libcamera-tools** **libcamera-v4l2** libasound2-dev libpulse-dev libfftw3-dev
+- sudo apt install autoconf automake autopoint build-essential pkgconf libtool libzip-dev libjpeg-dev git **libavformat-dev** **libavcodec-dev** libavutil-dev libswscale-dev **libavdevice-dev** **libopencv-dev** libwebp-dev gettext libmicrohttpd-dev **libmariadb-dev** **libcamera-dev** **libcamera-tools** **libcamera-v4l2** libasound2-dev libpulse-dev libfftw3-dev
 
-- sudo apt install ffmpeg v4l-utils libavcodec-dev libavdevice-dev libavformat-dev libswresample-dev nginx-common nginx-core libnginx-mod-rtmp -y
+- sudo apt install ffmpeg v4l-utils **libavcodec-dev** **libavdevice-dev** **libavformat-dev** libswresample-dev nginx-common nginx-core libnginx-mod-rtmp -y
 
 
 64bit

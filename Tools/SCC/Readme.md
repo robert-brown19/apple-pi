@@ -1,7 +1,7 @@
 ---
 nav_order: 6
 layout: default
-title: SCC
+title: Tools
 nav_enabled: true
 ---
 

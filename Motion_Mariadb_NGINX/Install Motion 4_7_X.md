@@ -11,19 +11,18 @@ sudo apt update && sudo apt full-upgrade -y
 
 64bit
 
-wget https://github.com/Motion-Project/motionplus/releases/download/release-0.2.1/bookworm_motionplus_0.2.1-1_arm64.deb
-wget https://github.com/Motion-Project/motionplus/releases/download/release-0.2.1/bookworm_motionplus_0.2.1-1_armhf.deb
+Raspberry Pi Zero 2W, 3, 4, & 5  
+wget https://github.com/Motion-Project/motionplus/releases/download/release-0.2.1/bookworm_motionplus_0.2.1-1_arm64.deb  
+Raspberry Pi Zero W (32 bit)
+wget https://github.com/Motion-Project/motionplus/releases/download/release-0.2.1/bookworm_motionplus_0.2.1-1_armhf.deb  
 
+Intel & AMD Desktop or Laptop with Debian Linux (i.e. Ubuntu)
 wget https://github.com/Motion-Project/motionplus/releases/download/release-0.2.1/bookworm_motionplus_0.2.1-1_amd64.deb
 
-sudo dpkg -i bookworm_motionplus_0.2.1-1_arm64.deb 
-sudo dpkg -i bookworm_motionplus_0.2.1-1_armhf.deb
+sudo dpkg -i bookworm_motionplus_0.2.1-1_arm64.deb  
+sudo dpkg -i bookworm_motionplus_0.2.1-1_armhf.deb  
 
-sudo dpkg -i bookworm_motionplus_0.2.1-1_amd64.deb
-
-text_left CameraID
-text_right ip_Address\n%Y-%m-%d\n%T-%q
-text_scale 2
+sudo dpkg -i bookworm_motionplus_0.2.1-1_amd64.deb  
 
 sudo mariadb
 GRANT ALL ON *.* TO 'motiondb'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;

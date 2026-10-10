@@ -5,4 +5,4 @@ title: Image 1
 nav_enabled: true
 ---
 
-![Image 1](./MRE-Pi #1.jpg)
+![Image 1](./MRE-Pi #1.jpg "Military Ready Raspberry Pi)

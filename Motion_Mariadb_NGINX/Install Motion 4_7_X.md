@@ -1,3 +1,10 @@
+---
+nav_order: 6
+layout: default
+title: Install_Motion
+nav_enabled: true
+---
+
 cat /proc/cpuinfo | grep Model
 sudo apt update && sudo apt full-upgrade -y
 - sudo apt install opensc libpam-pkcs11 auditd ufw libpam-pwquality apparmor vlock aide chrony -y

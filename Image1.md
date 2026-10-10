@@ -1,7 +1,7 @@
 ---
 nav_order: 3
 layout: default
-title: Figure 1
+title: Image 1
 nav_enabled: true
 ---
 

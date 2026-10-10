@@ -1,3 +1,10 @@
+---
+nav_order: 7
+layout: default
+title: Raw_Build
+nav_enabled: true
+---
+
 dmesg | grep -i firmware
 Increase swap to 1024
 

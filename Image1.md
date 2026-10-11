@@ -5,4 +5,4 @@ title: Image 1
 nav_enabled: true
 ---
 
-![Image1](https://en.wikipedia.org/wiki/File:Afra_013.jpg "Military Ready Raspberry Pi")
+![Image1](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Afra_013.jpg/1920px-Afra_013.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail "Military Ready Raspberry Pi")

@@ -4,6 +4,7 @@ layout: default
 title: Image 1
 nav_enabled: true
 ---
+![MRE](MRE-Pi.jpg)
 111111111111111
 ![Doggy](dog.jpeg)
 xxxxxxxxxxxxxxxxxxxxxxxxxxxx
